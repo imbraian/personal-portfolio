@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lula's Portfolio | Web developer and programmer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Lula's Portfolio! I am a web developer and programmer with a passion for creating beautiful and functional websites."
+    />
+    <meta
+      name="keywords"
+      content="portfolio web developer programmer frontend"
+    />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="icon" href="/src/img/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="container">
+        <nav class="header__nav">
+          <h2 class="visually-hidden">Navigation</h2>
+          <a href="#main" class="header__logo">
+            braiandev <span class="visually-hidden">(to home page)</span>
+          </a>
+          <a
+            href="https://github.com/imbraian"
+            class="header__social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"
+              role="img"
+              aria-labelledby="socialGitHub"
+            >
+              <title id="socialGitHub">GitHub</title>
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+              />
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="header__social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+              role="img"
+              aria-labelledby="socialLinkedin"
+            >
+              <title id="socialLinkedin">LinkedIn</title>
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+              />
+              <path d="M8 11l0 5" />
+              <path d="M8 8l0 .01" />
+              <path d="M12 16l0 -5" />
+              <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/braiandev/"
+            class="header__social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"
+              role="img"
+              aria-labelledby="socialX"
+            >
+              <title id="socialX">X</title>
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+            </svg>
+          </a>
+          <a
+            href="mailto:luladev@gmail.com"
+            class="header__social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-mail"
+              role="img"
+              aria-labelledby="socialMail"
+            >
+              <title id="socialMail">E-Mail</title>
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+              />
+              <path d="M3 7l9 6l9 -6" />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero__container container bottom-border">
+          <div class="hero__content">
+            <picture>
+              <source
+                srcset="/src/img/avatar.jfif"
+                media="(min-width: 62.5rem)"
+              />
+              <source
+                srcset="/src/img/avatar.jfif"
+                media="(min-width: 37.5rem)"
+              />
+              <img
+                class="hero__img"
+                src="/src/img/avatar.jfif"
+                alt="Profile pic of Braian"
+                width="174"
+                height="383"
+              />
+            </picture>
+            <div class="hero__info">
+              <h1 class="hero__title text-size">
+                Nice to <br />
+                meet you! I'm <span>Braian</span>.
+              </h1>
+              <p class="hero__desc">
+                Based in Argentina, I'm a frontend developer and programmer with
+                a passion for creating beautiful and functional websites.
+              </p>
+              <a href="mailto:luladev@gmail.com" class="hero__btn underline"
+                >Contact me</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <h2 class="visually-hidden">Skills</h2>
+        <div class="skills__container container bottom-border">
+          <div class="skills__item">
+            <h3 class="skills__title">HTML</h3>
+            <p class="skills__desc">3 years of experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">CSS</h3>
+            <p class="skills__desc">3 years of experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">TailwindCSS</h3>
+            <p class="skills__desc">3 year of experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">JavaScript</h3>
+            <p class="skills__desc">3 years of experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">React</h3>
+            <p class="skills__desc">2 years of experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">Astro</h3>
+            <p class="skills__desc">2 years of experience</p>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <h2 class="visually-hidden">Projects</h2>
+        <div class="projects__container container">
+          <h2 class="projects__title text-size">Projects</h2>
+          <div class="projects__grid">
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">FullStack E-Commerce</h3>
+              <p class="projects__desc">Welcome to my e-commerce website, a full-stack website with a beautiful design and a functional user interface.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">Twitter-X Clone</h3>
+              <p class="projects__desc">With its sleek and modern design, Twitter-X offers a fresh and exciting user experience that is sure to captivate users.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">Dashboard</h3>
+              <p class="projects__desc">A dashboard for a web application with a modern and sleek design.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">Project Manager</h3>
+              <p class="projects__desc">Manage your projects and tasks with a user-friendly interface.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">Wheater Website</h3>
+              <p class="projects__desc">Search your nearest weather station and get the latest weather information.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture>
+                <source
+                  srcset="/src/img/project-1.webp"
+                  media="(min-width: 37.5rem)"
+                />
+                <img
+                  class="projects__img"
+                  src="/src/img/project-1.webp"
+                  alt="Screenshot of design fruits shop website"
+                  width="343"
+                  height="253"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="projects__name">Recipe App</h3>
+              <p class="projects__desc">Create and share your favorite recipes with friends and family.</p>
+              <div class="projects__links">
+                <a href="#" class="underline">Code</a>
+                <a href="#" class="underline">Preview</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="contact">
+        <h2 class="visually-hidden">Contact</h2>
+        <div class="contact__container container bottom-border">
+          <div class="contact__text">
+            <h2 class="contact__title text-size">Contact</h2>
+            <p class="contact__desc">
+              I would love to hear about your project and how i could help. Please fill  in the form, and I will get back to you as soon as possible.
+            </p>
+          </div>
+          <form class="contact__form">
+            <div class="contact__control">
+              <label for="name" class="visually-hidden">Name</label>
+              <input type="text" name="name" id="name" placeholder="Name" required minlength="3" maxlength="20"/>
+              <img
+                class="contact__invalid-icon"
+                src="/src/img/invalid.svg"
+                alt="logo of invalid information"
+                width="24"
+                height="24"
+              >
+            </div>
+            <div class="contact__control">
+              <label for="email" class="visually-hidden">Email</label>
+              <input type="email" name="email" id="email" placeholder="Email" required/>
+              <img 
+                class="contact__invalid-icon"
+                src="/src/img/invalid.svg"
+                alt="logo of invalid information"
+                width="24"
+                height="24"
+              >
+            </div>
+            <div class="contact__control not-mbe">
+              <label for="message" class="visually-hidden">Message</label>
+              <textarea name="message" id="message" rows="3" cols="30" placeholder="Message" required></textarea>
+              <img
+                class="contact__invalid-icon"
+                src="/src/img/invalid.svg"
+                alt="logo of invalid information"
+                width="24"
+                height="24"
+              >
+            </div>
+            <div class="contact__control align-right">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <h2 class="visually-hidden">Footer</h2>
+        <div class="container">
+          <nav class="header__nav">
+            <h2 class="visually-hidden">Navigation</h2>
+            <a href="#main" class="header__logo">
+              braiandev <span class="visually-hidden">(to home page)</span>
+            </a>
+            <a
+              href="https://github.com/imbraian"
+              class="header__social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"
+                role="img"
+                aria-labelledby="socialGitHub"
+              >
+                <title id="socialGitHub">GitHub</title>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="header__social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+                role="img"
+                aria-labelledby="socialLinkedin"
+              >
+                <title id="socialLinkedin">LinkedIn</title>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+                />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/braiandev/"
+              class="header__social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"
+                role="img"
+                aria-labelledby="socialX"
+              >
+                <title id="socialX">X</title>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+              </svg>
+            </a>
+            <a
+              href="mailto:luladev@gmail.com"
+              class="header__social"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-mail"
+                role="img"
+                aria-labelledby="socialMail"
+              >
+                <title id="socialMail">E-Mail</title>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+                />
+                <path d="M3 7l9 6l9 -6" />
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
